@@ -1,0 +1,32 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>图片路径演示页面</title>
+    <style>
+        /* 简单样式美化页面 */
+        body {
+            text-align: center;
+            margin: 50px;
+        }
+        img {
+            width: 400px; /* 统一图片宽度 */
+            margin: 20px;
+            border: 2px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+<h1>绝对路径与相对路径图片演示</h1>
+
+<!-- 1. 绝对路径图片（网络地址，直接引用互联网图片） -->
+<h3>绝对路径图片（网络地址）</h3>
+<img src="https://img.shetu66.com/2023/07/04/1688453332868636.png" alt="网络绝对路径图片">
+
+<!-- 2. 相对路径图片（本地项目图片，上级目录的image文件夹） -->
+<h3>相对路径图片（本地文件）</h3>
+<img src="./image/1.jpg" alt="本地相对路径图片">
+
+</body>
+</html>
