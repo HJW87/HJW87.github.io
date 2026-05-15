@@ -26,7 +26,7 @@
 
 <!-- 2. 相对路径图片（本地项目图片，上级目录的image文件夹） -->
 <h3>相对路径图片（本地文件）</h3>
-<img src="./image/1.jpg" alt="本地相对路径图片">
+<img src="image/1.jpg" alt="本地相对路径图片">
 
 </body>
 </html>
